@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Basic Vue page</title>
+        <script src="https://unpkg.com/vue@next"></script>
+    </head>
+    <body>
+
+        <!-- This page imports Vue using a script tag. Usually, in larger projects, you will want to use a package manager (for example NPM or Yarn) -->
+
+        <div id="counter" >
+
+            <!-- The double brackets make it possible to show Vue data on our page -->
+            <h1>Counter: {{ counter }}</h1>
+            <input v-model="counter" type="number">
+            <button @click="counter += 10">Add 10</button>
+
+            <!-- Here we use conditions to hide and show certain elements of the page -->
+            <h2>Is {{ counter }} higher than 30?</h2>
+            <p v-if="counter > 30">Yes!</p>
+            <p v-else>No</p>
+
+        </div>
+
+        <script>
+            const Counter = {
+                data() {
+                    return {
+                        counter: 0
+                    }
+                }
+            }
+
+            // Here we register our Vue app, by selecting the div with the id #counter
+            Vue.createApp(Counter).mount('#counter')
+        </script>
+
+    </body>
+</html>
