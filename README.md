@@ -4,4 +4,4 @@ In this repository, you will find the work of the Rebel Academy students who fol
 Course participants:
 - Joppe: project facilitator Activist Handbook
 - Iason: tech coordinator Activist Handbook
-- 
+- Someone else
