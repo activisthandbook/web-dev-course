@@ -5,3 +5,4 @@ Course participants:
 - Joppe: project facilitator Activist Handbook
 - Iason: tech coordinator Activist Handbook
 - Daniel: Junior Software Developer, Green activist
+
