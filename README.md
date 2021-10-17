@@ -5,4 +5,5 @@ Course participants:
 - Joppe: project facilitator Activist Handbook
 - **Leksi** *: one of the students*
 - Iason: tech coordinator Activist Handbook
-- 
+- Liam: a trainer at the Web development course
+- Daniel: Junior Software Developer, Green activist
