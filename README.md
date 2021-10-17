@@ -4,5 +4,5 @@ In this repository, you will find the work of the Rebel Academy students who fol
 Course participants:
 - Joppe: project facilitator Activist Handbook
 - Iason: tech coordinator Activist Handbook
+- Liam: a trainer at the Web development course
 - Daniel: Junior Software Developer, Green activist
-
