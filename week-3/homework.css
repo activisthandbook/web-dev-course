@@ -1,0 +1,19 @@
+/* This is a CSS file. If you would like to learn more about CSS, check out this page: https://www.w3schools.com/css/ */
+
+p{
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #aa3489;
+    border-radius: 4px;
+    padding: 4px 8px;
+    transition: font-size 300ms;
+}
+
+article {
+    border: 1px #000000 solid;
+    border-radius: 4px;
+}
+
+p:hover {
+    font-size: 18px;
+}
