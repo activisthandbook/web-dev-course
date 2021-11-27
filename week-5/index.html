@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .image {
+                float: left;
+                border: 5px #7bb431 solid;
+                margin-left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="images">
+            <div class="image" v-for="image in images">
+                <img :src="image.url" :width="image.width" :height="image.height" :alt="image.altText" :title="image.altText" />
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+        <script>
+            new Vue({
+                el: "#images",
+                data: {
+                    images: [
+                        {
+                            url: 'https://scontent.fmla2-1.fna.fbcdn.net/v/t1.6435-9/161205420_462814821823880_5022646181531233472_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=JkZNSTJoFyoAX_u3sDC&_nc_ht=scontent.fmla2-1.fna&oh=44a5efc1273ee801d69b8d9cd6b38327&oe=61C6FA01',
+                            width: 600,
+                            height: 550,
+                            altText: 'After swim :)'
+                        },
+                        {
+                            url: 'https://scontent.fmla2-1.fna.fbcdn.net/v/t1.6435-9/150417557_444275733677789_6142807182560640315_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=174925&_nc_ohc=fSV448MpyO0AX9P6mVS&tn=-g_9sIS5TMKPmEI2&_nc_ht=scontent.fmla2-1.fna&oh=01fe73c8da1da9a23a9fd52d76d96355&oe=61C908C9',
+                            width: 600,
+                            height: 550,
+                            altText: 'With Bianca rabbit <3'
+                        }
+                    ]
+                }
+            });
+        </script>
+    </body>
+</html>
